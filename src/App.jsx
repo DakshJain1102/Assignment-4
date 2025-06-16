@@ -31,7 +31,7 @@ const App = () => {
 
       <img src={Tatiya} alt="This is Tatiya" height={600} width={700} className="image" />
 
-      <h1>Body Count is {count}</h1>
+      <h1>Count is {count}</h1>
       <div className="centered">
         <button onClick={() => setCount(count + 1)}>Count</button>
       </div>
